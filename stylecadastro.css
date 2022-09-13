@@ -86,23 +86,20 @@ fieldset legend {
     font-size: 1.4rem;
     line-height: 2.4rem;
     margin-bottom: .8rem;
-    color: #4E4958;
-}
-
-.input-wrapper label span {
-    margin-left: 1.2rem;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    color: #C1BCCC;
-}
+    color: black;
+}   
 
 .input-wrapper input {
     background: #FAFAFC;
-    border: 1px solid #E6E6F0;
+    border: 1px solid black;
     border-radius: 8px;
     height: 5.6rem;
     padding: 0 2.4rem;
     font-size: 1.6rem;
     line-height: 2.6rem;
-    color: #C1BCCC;
+    color: #2a2a2b;
+}
+
+input:invalid{
+    border: 3px solid rgb(247, 183, 183)
 }
