@@ -31,3 +31,61 @@ a{
     text-decoration: none;
     color: black;
 }
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    margin-bottom: .8rem;
+    color: black;
+}
+
+.input-wrapper input {
+    background: #FAFAFC;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 5.6rem;
+    width: 50rem;
+    padding: 0 2.4rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #2a2a2b;
+}
+
+input:invalid {
+    border: 3px solid rgb(247, 183, 183)
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3.6rem;
+}
+
+#login{
+    margin-top: 15rem;
+    padding: 10rem 0 10rem 0;
+    background-color: white;
+    width: 60rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid black;
+    border-radius: 2rem;
+    gap: 2rem;
+}
+
+button{
+    font-size: 2rem;
+    height: 3.6rem ;
+    width: 10rem ;
+    border-radius: 2rem;
+    background-color: rgb(209, 243, 237);
+}

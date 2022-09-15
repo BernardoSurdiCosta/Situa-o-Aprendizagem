@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #C4EBE2;
+    display: flex;
+    justify-content: center;
+}
+
+#sucess{
+    margin-top: 15rem;
+    padding: 10rem 0 10rem 0;
+    background-color: white;
+    width: 60rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid black;
+    border-radius: 2rem;
+    gap: 4rem;
+}
+
+p{
+    font-size: 3.6rem;
+}
+
+button{
+    background-color: rgb(246, 255, 166);
+    border-radius: 8px;
+    height: 5.6rem;
+    width: 15rem;
+    border: 0;
+    font-size: 1.6rem;
+    cursor: pointer;
+}

@@ -27,8 +27,8 @@
             </div>
         </nav>
     </header>
-    <div class="body">
-        <form>
+    <main>
+        <form id="my-form">
             <h1>Cadastro</h1>
             <fieldset>
                 <div class="fieldset-wrapper">
@@ -42,12 +42,12 @@
 
                     <div class="input-wrapper">
                         <label for="cpf">CPF</label>
-                        <input type="text" required id="cpf" />
+                        <input type="text" maxlength="11" minlength="11" required id="cpf" />
                     </div>
 
                     <div class="input-wrapper">
                         <label for="telefone">Telefone</label>
-                        <input type="tel" required id="telefone" />
+                        <input type="tel" minlength="11" required id="telefone" />
                     </div>
 
                     <div class="input-wrapper">
@@ -72,37 +72,34 @@
 
                     <div class="input-wrapper">
                         <label for="estado">Estado</label>
-                        <input type="search" required id="estado" />
+                        <input type="text" required id="estado" />
                     </div>
 
                     <div class="input-wrapper">
                         <label for="cidade">Cidade</label>
-                        <input type="number" required id="cidade" />
+                        <input type="text" required id="cidade" />
                     </div>
 
                     <div class="input-wrapper">
                         <label for="bairro">Bairro</label>
-                        <input type="number" required id="bairro" />
+                        <input type="text" required id="bairro" />
                     </div>
 
                     <div class="input-wrapper">
                         <label for="rua">Rua</label>
-                        <input type="number" required id="rua" />
+                        <input type="text" required id="rua" />
                     </div>
 
                     <div class="input-wrapper">
                         <label for="ncasa">N° Casa</label>
                         <input type="number" required id="ncasa" />
                     </div>
-
                 </fieldset>
-        
-
         </form>
-
-
-
-    </div>
+        <footer>
+                <a href="cadastrosucesso.html"><input class="button" type="submit" form="my-form" value="Cadastrar "></a> 
+        </footer>
+    </main>
 </body>
 
 </html>

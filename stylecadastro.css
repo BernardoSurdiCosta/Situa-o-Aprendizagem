@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
@@ -8,7 +8,7 @@
     font-size: 62.5%;
 }
 
-nav{
+nav {
     display: flex;
     background-color: #C4EBE2;
     justify-content: space-between;
@@ -16,32 +16,32 @@ nav{
     padding: 0 3rem;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
     align-items: center;
     gap: 4rem;
 }
 
-li{
+li {
     font-size: 2rem;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-body{
+body {
     background-color: rgb(209, 209, 209);
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 3.6rem;
 }
 
-.body {
+main{
     width: 80rem;
     margin: 0 auto;
     padding-bottom: 8.5rem;
@@ -87,7 +87,7 @@ fieldset legend {
     line-height: 2.4rem;
     margin-bottom: .8rem;
     color: black;
-}   
+}
 
 .input-wrapper input {
     background: #FAFAFC;
@@ -100,6 +100,29 @@ fieldset legend {
     color: #2a2a2b;
 }
 
-input:invalid{
+input:invalid {
     border: 3px solid rgb(247, 183, 183)
+}
+
+footer {
+    height: 10rem;
+    background: #C4EBE2;
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 6rem;
+    justify-content: center;
+    padding: 4rem 6.4rem;
+    border-top: 1px solid rgb(63, 63, 63);
+    display: flex;
+    align-items: center;
+}
+
+footer .button{
+    background: #ffffff;
+    border-radius: 8px;
+    height: 5.6rem;
+    width: 15rem;
+    border: 0;
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: #000000;
 }
