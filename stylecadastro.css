@@ -123,6 +123,7 @@ footer .button{
     width: 15rem;
     border: 0;
     font-size: 1.6rem;
+    text-align: center;
     cursor: pointer;
     color: #000000;
 }

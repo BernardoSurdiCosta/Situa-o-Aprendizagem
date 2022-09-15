@@ -14,8 +14,14 @@ body{
     justify-content: center;
 }
 
+main{
+    margin-top: 14rem;
+    display: grid;
+    justify-items: center;
+}
+
 #sucess{
-    margin-top: 15rem;
+    margin-top: 3rem;
     padding: 10rem 0 10rem 0;
     background-color: white;
     width: 60rem;
@@ -32,7 +38,7 @@ p{
 }
 
 button{
-    background-color: rgb(246, 255, 166);
+    background-color: rgb(215, 255, 253);
     border-radius: 8px;
     height: 5.6rem;
     width: 15rem;
