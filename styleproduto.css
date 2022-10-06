@@ -25,6 +25,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0 3rem;
+    height: 5rem;
 }
 
 ul{
@@ -51,7 +52,7 @@ h1{
 
 #top{
     position: fixed;
-    border: 3px solid grey;
+    
     border-radius: 2rem;
     width: 60rem;
     height: 60rem;
@@ -63,6 +64,7 @@ h1{
     position: fixed;
     display: flex;
     gap: 3rem;
+    
 }
 
 #imgs img{
@@ -121,7 +123,7 @@ button{
     width: 25rem;
     border-radius: 2rem;
     font-size: 2rem;
-    background-color: #C4EBE2;
+    background-color: #a2f7e3;
 }
 
 #addremove{
@@ -136,3 +138,18 @@ button{
     height: 3.5rem;
 }
 
+.ava{
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    gap: 1rem;
+}
+
+.avaliacoes h2{
+    margin-top: 1.5rem;
+    font-size: 3rem
+}
+
+.avaliacoes p{
+    font-size: 2rem;
+}
