@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #b4f1df;
+    margin: 0;
+}
+
+main{
+    text-align: center;
+}
+
+.input-group{
+    margin-left: 40rem;
+    margin-right: 40rem;
+    width: 100rem;
+    height: 5rem;
+}
+
+.form-control{
+    font-size: 2rem;
+}
+
+.input-group-text{
+    font-size: 2rem
+}
+
+#adicionar{
+    border-radius: 1rem;
+    width: 14rem;
+    height: 5rem;
+    font-size: 2rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#add{
+    display: flex;
+    justify-content: center;
+}

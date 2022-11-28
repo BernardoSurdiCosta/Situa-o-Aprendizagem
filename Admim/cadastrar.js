@@ -39,4 +39,5 @@ async function createUser(newUser) {
       cpf,
       phoneNumber
     })
+    window.location.href = "cadastrosucesso.html";
   })
